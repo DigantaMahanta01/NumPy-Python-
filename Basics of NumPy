@@ -1,0 +1,21 @@
+import numpy as np
+a = np.array([[1,2,3],[4,5,6],[7,1,0]])
+print(a)
+a.sum(axis=0)
+a.sum(axis=1)
+a.argsort()
+a.argmax(axis=0)
+a.argmax(axis=1)
+a.argmin(axis=0)
+a.argmin(axis=1)
+a.argsort(axis=0)
+a = np.array([[1,2,3],[4,5,6],[7,1,0]])
+print(a)
+np.sqrt(a)
+np.where(a>5)
+np.count_nonzero(a)
+np.nonzero(a)
+
+#Replacing Two Numbers
+a[1,2]=0
+np.nonzero(a)
